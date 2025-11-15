@@ -1,7 +1,7 @@
 {
-  "name": "docen-edge",
+  "name": "ooxast-edge",
   "version": "0.0.0",
-  "description": "Universal document conversion and processing library that works in any JavaScript runtime, powered by Demo Macro",
+  "description": "OOXML AST type definitions, powered by Demo Macro",
   "private": true,
   "scripts": {
     "build": "pnpm -r prepack",
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/docenjs/docen.git"
+    "url": "git+https://github.com/docenjs/ooxast.git"
   },
   "keywords": [],
   "author": {
@@ -28,9 +28,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/docenjs/docen/issues"
+    "url": "https://github.com/docenjs/ooxast/issues"
   },
-  "homepage": "https://github.com/docenjs/docen#readme",
+  "homepage": "https://github.com/docenjs/ooxast#readme",
   "devDependencies": {
     "@funish/basis": "0.1.1",
     "@prettier/plugin-oxc": "0.0.4",
@@ -44,6 +44,5 @@
     "unbuild": "3.6.1",
     "vite-node": "3.2.4",
     "vitest": "3.2.4"
-  },
-  "packageManager": "pnpm@10.9.0+sha512.0486e394640d3c1fb3c9d43d49cf92879ff74f8516959c235308f5a8f62e2e19528a65cdc2a3058f587cde71eba3d5b56327c8c33a97e4c4051ca48a10ca2d5f"
+  }
 }

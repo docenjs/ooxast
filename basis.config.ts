@@ -11,6 +11,9 @@ export default defineBasisConfig({
       format:
         "pnpm prettier --write --list-different . --ignore-path .gitignore --plugin=@prettier/plugin-oxc",
     },
+    dependencies: {
+      checkSecurity: false,
+    },
   },
   git: {
     hooks: {
